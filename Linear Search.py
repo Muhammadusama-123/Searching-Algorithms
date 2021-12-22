@@ -19,6 +19,7 @@ def LinearSearch(emptyList, sizeOfList, searchValue):
               f'and the value which is searched in a list is {key}.')
 
 
+# Driver code:
 sizeOfList = int(input('Enter size of the list: '))
 emptyList = []
 for i in range(sizeOfList):
