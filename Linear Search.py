@@ -23,7 +23,7 @@ def LinearSearch(emptyList, sizeOfList, searchValue):
 sizeOfList = int(input('Enter size of the list: '))
 emptyList = []
 for i in range(sizeOfList):
-    value = int(input('Enter value to store in a list: '))
+    value = int(input('Enter values to store in a list: '))
     emptyList.append(value)
 print(emptyList)
 searchValue = int(input('Enter value you want to search in a list: '))
